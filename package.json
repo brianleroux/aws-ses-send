@@ -1,0 +1,18 @@
+{
+  "name": "aws-ses-send",
+  "version": "0.0.1",
+  "description": "simple send method for AWS SES",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/** | tap-spec"
+  },
+  "author": "Brian LeRoux",
+  "license": "Apache2",
+  "dependencies": {
+    "aws-sdk": "^2.0.8"
+  },
+  "devDependencies": {
+    "tap-spec": "^0.2.0",
+    "tape": "^2.13.4"
+  }
+}
