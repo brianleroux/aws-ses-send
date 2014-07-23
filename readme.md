@@ -6,9 +6,7 @@
 
 ### Configure
 
-Ensure you have verified an email and/or domain in the AWS SES console, and `config.json` in your project root.
-
-    {"accessKeyId":"", "secretAccessKey":"", "region":"us-west-1"}
+Ensure you have verified an email and/or domain in the AWS SES console, and `~/.aws/credentials` setup. This module also expects a `REGION` environment variable. (Ex. `REGION=us-east-1 node my-script-that-uses-this-module.js`)
 
 ### Usage
 

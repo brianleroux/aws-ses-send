@@ -4,7 +4,7 @@
   "description": "simple send method for AWS SES",
   "main": "index.js",
   "scripts": {
-    "test": "node test/** | tap-spec"
+    "test": "REGION=us-east-1 node test/** | tap-spec"
   },
   "author": "Brian LeRoux",
   "license": "Apache2",

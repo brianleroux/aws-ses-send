@@ -1,6 +1,7 @@
-var aws = new require('aws-sdk')
-aws.config.loadFromPath('config.json')
-var ses = new aws.SES //({region:'us-east-1'})
+var aws = require('aws-sdk')
+aws.config.update({region:process.env.REGION})
+var ses = new aws.SES // this must come after config :/
+
 
 module.exports = function sendEmail(message, cb) {
 
