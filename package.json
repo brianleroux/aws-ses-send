@@ -1,6 +1,6 @@
 {
   "name": "aws-ses-send",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "simple send method for AWS SES",
   "main": "index.js",
   "scripts": {
